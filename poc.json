@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/Simo123434/mypocs/main/poc.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/Simo123434/mypocs/main/poc.yaml",
+            "name": "Foo"
+        }
+    ]
+}
